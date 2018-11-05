@@ -2,5 +2,7 @@
 
 This chapter describes various concepts which are used in the Linux kernel.
 
-* [Per-CPU variables](http://0xax.gitbooks.io/linux-insides/content/Concepts/per-cpu.html)
-* [CPU masks](http://0xax.gitbooks.io/linux-insides/content/Concepts/cpumask.html)
+* [Per-CPU variables](linux-cpu-1.md)
+* [CPU masks](linux-cpu-2.md)
+* [The initcall mechanism](linux-cpu-3.md)
+* [Notification Chains](linux-cpu-4.md)

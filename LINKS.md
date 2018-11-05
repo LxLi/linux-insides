@@ -5,12 +5,17 @@ Linux boot
 ------------------------
 
 * [Linux/x86 boot protocol](https://www.kernel.org/doc/Documentation/x86/boot.txt)
-* [Linux kernel parameters](https://github.com/torvalds/linux/blob/master/Documentation/kernel-parameters.txt)
+* [Linux kernel parameters](https://github.com/torvalds/linux/blob/master/Documentation/admin-guide/kernel-parameters.rst)
 
 Protected mode
 ------------------------
 
 * [64-ia-32-architectures-software-developer-vol-3a-part-1-manual.pdf](http://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html)
+
+Memory management in the Linux kernel
+--------------------------------------
+
+* [Notes on the linux kernel VM subsystem by @lorenzo-stoakes](https://github.com/lorenzo-stoakes/linux-vm-notes)
 
 Serial programming
 ------------------------
@@ -40,7 +45,9 @@ Important data structures
 
 * [task_struct definition](http://lxr.free-electrons.com/source/include/linux/sched.h#L1274)
 
-Other architectures
+
+Useful links
 ------------------------
 
-* [PowerPC and Linux Kernel Inside](http://www.systemcomputing.org/ppc/)
+* [Linux x86 Program Start Up](http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html)
+* [Memory Layout in Program Execution (32 bits)](http://fgiasson.com/articles/memorylayout.txt)
